@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to your CSS and FontAwesome -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ====== SIDEBAR ====== -->
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Your Library</h3>
+
+        <div class="box">
+          <p>Create your first playlist</p>
+          <small>It's easy, we'll help you</small>
+          <button>Create playlist</button>
+        </div>
+
+        <div class="box">
+          <p>Let's find some podcasts to follow</p>
+          <small>We'll keep you updated on new episodes</small>
+          <button>Browse podcasts</button>
+        </div>
+      </aside>
+      <!-- ====== END OF SIDEBAR ====== -->
+
+      <!-- ====== MAIN CONTENT AREA ====== -->
+      <div class="main-box">
+        <!-- ====== HEADER ====== -->
+        <div class="header">
+          <div class="hc1">
+            <div class="hc11">
+              <i class="fa-brands fa-spotify brand"></i>
+            </div>
+            <div class="hc12">
+              <i class="fa-solid fa-house home"></i>
+            </div>
+            <div class="hc13">
+              <div class="hc131">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+              <div class="hc132">
+                <input
+                  type="search"
+                  class="ip-ser"
+                  placeholder="what do you want to search?"
+                />
+              </div>
+              <div class="hc133">
+                <i class="fa-solid fa-window-restore search"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc2">
+            <div class="hc21">
+              <a href="">Premium</a>
+              <a href="">Support</a>
+              <a href="">Download</a>
+            </div>
+            <div class="bar"></div>
+            <div class="hc22">
+              <button><i class="fa-solid fa-download"></i> Install App</button>
+            </div>
+            <div class="hc23">
+              <button>Signup</button>
+            </div>
+            <div class="hc24">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+       
+
+        <!-- ====== TRENDING SONGS SECTION ====== -->
+        <section class="trending-section">
+          <div class="section-header">
+            <h2>Trending songs</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="trending-cards">
+            <!-- Card 1 -->
+            <div class="song-card">
+              <div class="song-thumb">
+               <img src="https://i.ytimg.com/vi/iHEi5LjbUqs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCwxxUUjkyAEwGG7TTJ1HndfoTM4A" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Bad Desire (With or Without You)</p>
+                <p class="song-artist">ENHYPEN</p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="https://c.saavncdn.com/830/Supreme-Punjabi-2023-20230202190608-500x500.jpg" alt="Supreme" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Supreme</p>
+                <p class="song-artist">Shubh</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+           <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPAImB5fYGeTe_ZX75aLeskh_Z2flLZB-cw&s" alt="Tu Tu Hai Wahi" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Tu Tu Hai Wahi</p>
+    <p class="song-artist">RUUH, JOJ, Jubin Nautiyal, Jonita Gandhi</p>
+  </div>
+</div>
+
+            <!-- Card 4 -->
+           <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://i.ytimg.com/vi/ExajiNqTcO8/sddefault.jpg" alt="Outlaw by Sidhu Moose Wala" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Outlaw</p>
+    <p class="song-artist">Sidhu Moose Wala</p>
+  </div>
+</div>
+
+            <!-- Card 5 -->
+            <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://i.ytimg.com/vi/IWQC4rE-QTA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCl7qfSyq9SH-QD5kwZ_T5QbWyAEw" alt="Time Is Money" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Time Is Money</p>
+    <p class="song-artist">Parmish Verma, Laddi Chahal, Black Virus</p>
+  </div>
+</div>
+
+            <!-- Card 6 -->
+           <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://i.ytimg.com/vi/emh8zR4ZqZ0/maxresdefault.jpg" alt="Aashiq Tera" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Aashiq Tera</p>
+    <p class="song-artist">Altamash Faridi, Sohail Sen, Mudassar Aziz</p>
+  </div>
+</div>
+
+            <!-- Card 7 -->
+           <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://i.ytimg.com/vi/zCFguXyqj4Q/maxresdefault.jpg" alt="Industry Baby" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Industry Baby</p>
+    <p class="song-artist">Lil Nas X ft. Jack Harlow</p>
+  </div>
+</div>
+
+            <!-- Card 8 -->
+            <div class="song-card">
+  <div class="song-thumb">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*hDi2eBUzKtUZ9lW6ln9aUg.jpeg" alt="Levitating" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Levitating</p>
+    <p class="song-artist">Dua Lipa</p>
+  </div>
+</div>
+
+        </section>
+
+        <!-- ====== POPULAR ARTISTS SECTION ====== -->
+        <section class="artists-section">
+          <div class="section-header">
+            <h2>Popular artists</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="artists-cards">
+            <!-- Artist 1 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://i.guim.co.uk/img/media/d6d2ce17dcc34d354bbb78a61f95c4828d32a2e1/2039_334_5346_3208/master/5346.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=3db9d8a3d5e0f17297627aa993086950" alt="Artist 1" />
+  </div>
+  <p class="artist-name">Artist 1</p>
+</div>
+
+            <!-- Artist 2 -->
+           <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJuj49nasF_pwC9o3noxOiWUUWeInNJRCZUQ&s" alt="Artist 2">
+  </div>
+  <p class="artist-name">Artist 2</p>
+</div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://engage4more.com/blog/wp-content/uploads/2022/07/Arijit-Singh-1.jpg" alt="Artist 3">
+  </div>
+  <p class="artist-name">Artist 3</p>
+</div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://dailymusicroll.s3.us-west-2.amazonaws.com/wp-content/uploads/2019/12/27124120/Ariana-Grande-2.jpg" alt="Artist 4">
+  </div>
+  <p class="artist-name">Artist 4</p>
+</div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt2vdyXlM7xaNysGdNKHoZOzf5NHJODTllVw&s" alt="Artist 5">
+  </div>
+  <p class="artist-name">Artist 5</p>
+</div>
+
+            <!-- Artist 6 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXgZSaXZ3mxaG_21tpTyQppqal__3sG0LWw&s" alt="Artist 6">
+  </div>
+  <p class="artist-name">Artist 6</p>
+</div>
+
+            <!-- Artist 7 -->
+           <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://www.shaadidukaan.com/user_images/innerSlider_images/default/m/47-m.jpg" alt="Artist 7">
+  </div>
+  <p class="artist-name">Artist 7</p>
+</div>
+
+            <!-- Artist 8 -->
+            <div class="artist-card">
+  <div class="artist-thumb">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lN2lxoSThZ08F_VpJcECeQZXfR8P_48Tfw&s" alt="Artist 8">
+  </div>
+  <p class="artist-name">Artist 8</p>
+</div>
+
+        </section>
+        <!-- ====== END OF CONTENT ====== -->
+      </div>
+      <!-- ====== END OF MAIN CONTENT AREA ====== -->
+    </div>
+  </body>
+</html>
